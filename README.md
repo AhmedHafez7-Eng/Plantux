@@ -21,4 +21,4 @@
   - To-Top Button 
   - Transition Effects
 
-### Live Demo : https://az-plantus.netlify.app/
+### Live Demo : https://plantux.netlify.app/
