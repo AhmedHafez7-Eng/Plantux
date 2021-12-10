@@ -1,5 +1,5 @@
-# ***Plantus***
-## **Plantus - Completely Responsive and Animated Plants Website for showcasing the best types of plants and flowers.**
+# ***Plantux***
+## **Plantux - Completely Responsive and Animated Plants Website for showcasing the best types of plants and flowers.**
 ### Plants will make your life better Create incredible plant design for your offices or apartments. Add freshness to your new ideas.
 - 5 Sections contain :
   - Home Section: that showcase the header of the site.
