@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <!-- ----------------- Browser Tab FavIcon ------ -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Plantus</title>
+    <!-- ----------------- Remix Icons -------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- ----------------- CSS ---------------------- -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ========== PreLoader ========== -->
+    <div class="pageLoader"></div>
+
+    <!-- ========== Header ========== -->
+
+    <header class="header" id="header">
+        <nav class="nav container">
+
+            <a href="#" class="navLogo" translate="no">
+                <i class="ri-leaf-line navLogoIcon"></i> Plantux
+            </a>
+
+            <div class="navMenu" id="navMenu">
+                <ul class="navList">
+                    <li class="navItem">
+                        <a href="#home" class="navLink activeLink">Home</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#about" class="navLink">About</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#products" class="navLink">Products</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#faqs" class="navLink">FAQs</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#contact" class="navLink">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="navClose" id="navClose">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="navBtns">
+                <!-- Theme Change Button -->
+                <i class="ri-moon-line changeTheme" id="themeBtn"></i>
+
+                <div class="navToggle" id="navToggle">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== Main Content ========== -->
+
+    <main class="main">
+
+        <!-- ========== Home ========== -->
+
+        <section class="home" id="home">
+            <div class="homeContainer container grid">
+                <img src="img/home.png" alt="Home Image" class="homeImg">
+
+                <div class="homeData">
+                    <h1 class="homeTitle">
+                        Plants will make <br>your life better
+                    </h1>
+                    <p class="homeDesc">
+                        Create incredible plant design for your offices or apartments.
+                        Add freshness to your new ideas.
+                    </p>
+                    <a href="#about" class="btn btnFlex">
+                        Explore <i class="ri-arrow-right-down-line btnIcon"></i>
+                    </a>
+                </div>
+                <div class="homeSocial">
+                    <span class="homeSocialFollow">Follow Us</span>
+                    <div class="homeSocialLinks">
+                        <a href="https://www.facebook.com/profile.php?id=100005116839262" class="homeSocialLink"
+                            target="_blank">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ahmedhafez247/" class="homeSocialLink" target="_blank">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="https://github.com/AhmedHafez7-Eng" class="homeSocialLink" target="_blank">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://ahmedhafezoffic.netlify.app/" class="homeSocialLink" target="_blank">
+                            <i class="ri-global-fill"></i>
+                        </a>
+                        <a href="https://www.behance.net/ahmedhafez12" class="homeSocialLink" target="_blank">
+                            <i class="ri-behance-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== About ========== -->
+
+        <section class="about section container" id="about">
+            <div class="aboutContainer grid">
+                <img src="img/about.png" alt="about us" class="aboutImg">
+
+                <div class="aboutData">
+                    <h2 class="sectionTitle aboutTitle">
+                        Who we really are & <br> why choose us
+                    </h2>
+                    <p class="aboutDesc">
+                        We have over 4000+ unbiased reviews and our customerstrust our plant process and delivery
+                        service every time.
+                    </p>
+                    <div class="aboutDetails">
+                        <p class="aboutDetailsDesc">
+                            <i class="ri-checkbox-fill aboutDetailsIcon"></i>
+                            We always deliver on time.
+                        </p>
+                        <p class="aboutDetailsDesc">
+                            <i class="ri-checkbox-fill aboutDetailsIcon"></i>
+                            We give you guide to protect and care for your plants.
+                        </p>
+                        <p class="aboutDetailsDesc">
+                            <i class="ri-checkbox-fill aboutDetailsIcon"></i>
+                            We always come over for a check-up after sale.
+                        </p>
+                        <p class="aboutDetailsDesc">
+                            <i class="ri-checkbox-fill aboutDetailsIcon"></i>
+                            100% money back guaranteed.
+                        </p>
+                    </div>
+                    <a href="" class="btnLink btnFlex disabledLink">
+                        Shop Now <i class="ri-arrow-right-down-line btnIcon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Steps ========== -->
+
+        <section class="steps section container">
+            <div class="stepsBg">
+                <h2 class="sectionTitleCenter stepsTitle">
+                    Steps to start your <br> plants off right
+                </h2>
+                <div class="stepsContainer grid">
+                    <div class="stepsCard">
+                        <div class="stepsCardNumber">01</div>
+                        <h3 class="stepsCardTitle">Choose Plant</h3>
+                        <p class="stepsCardDesc">We've several varities plants you can choose from.</p>
+                    </div>
+                    <div class="stepsCard">
+                        <div class="stepsCardNumber">02</div>
+                        <h3 class="stepsCardTitle">Place an Order</h3>
+                        <p class="stepsCardDesc">
+                            Once your order is set, we move to the next step which is the shipping.
+                        </p>
+                    </div>
+                    <div class="stepsCard">
+                        <div class="stepsCardNumber">03</div>
+                        <h3 class="stepsCardTitle">Get Plants Delivered</h3>
+                        <p class="stepsCardDesc">
+                            Our delivery process is easy, you receive the plant direct to your door.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Products ========== -->
+        <section class="product section container" id="products">
+            <h2 class="sectionTitleCenter">Check out our <br> products</h2>
+            <p class="productDesc">
+                Here are some selected plants from our showroom, all are in excellent shape
+                and has a long life span. Buy and enjoy the best quality.
+            </p>
+            <div class="productContainer grid">
+                <article class="productCard">
+                    <div class="productCircle"></div>
+                    <img src="img/product1.png" alt="product1" class="productImg">
+                    <h3 class="productTitle">Cacti Plant</h3>
+                    <span class="productPrice">$19.75</span>
+                    <button class="btnFlex productBtn" title="Buy Now">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="productCard">
+                    <div class="productCircle"></div>
+                    <img src="img/product2.png" alt="product2" class="productImg">
+                    <h3 class="productTitle">Cactus Plant</h3>
+                    <span class="productPrice">$11.40</span>
+                    <button class="btnFlex productBtn" title="Buy Now">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="productCard">
+                    <div class="productCircle"></div>
+                    <img src="img/product3.png" alt="product3" class="productImg">
+                    <h3 class="productTitle">Aloe Vera Plant</h3>
+                    <span class="productPrice">$7.99</span>
+                    <button class="btnFlex productBtn" title="Buy Now">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="productCard">
+                    <div class="productCircle"></div>
+                    <img src="img/product4.png" alt="product4" class="productImg">
+                    <h3 class="productTitle">Succulent Plant</h3>
+                    <span class="productPrice">$24.50</span>
+                    <button class="btnFlex productBtn" title="Buy Now">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="productCard">
+                    <div class="productCircle"></div>
+                    <img src="img/product5.png" alt="product5" class="productImg">
+                    <h3 class="productTitle">Succulent Plant</h3>
+                    <span class="productPrice">$13.24</span>
+                    <button class="btnFlex productBtn" title="Buy Now">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="productCard">
+                    <div class="productCircle"></div>
+                    <img src="img/product6.png" alt="product6" class="productImg">
+                    <h3 class="productTitle">Green Plant</h3>
+                    <span class="productPrice">$12.25</span>
+                    <button class="btnFlex productBtn" title="Buy Now">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!-- ========== FAQs ========== -->
+        <section class="faqs section" id="faqs">
+            <h2 class="sectionTitleCenter faqsTitle container">
+                Some common questions <br> were often asked
+            </h2>
+            <div class="faqsContainer container grid">
+                <div class="faqsGroup">
+                    <div class="faqsItem">
+                        <header class="faqsHeader">
+                            <i class="ri-add-line faqsIcon"></i>
+                            <h3 class="faqsItemTitle">
+                                My flowers are falling off or dying?
+                            </h3>
+                        </header>
+                        <div class="faqsContent">
+                            <p class="faqsDesc">
+                                Plants are easy way to add color energy and transform your space
+                                but which planet is for you. Choose the right planet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faqsItem">
+                        <header class="faqsHeader">
+                            <i class="ri-add-line faqsIcon"></i>
+                            <h3 class="faqsItemTitle">
+                                What causes leaves to become pale?
+                            </h3>
+                        </header>
+                        <div class="faqsContent">
+                            <p class="faqsDesc">
+                                Plants are easy way to add color energy and transform your space
+                                but which planet is for you. Choose the right planet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faqsItem">
+                        <header class="faqsHeader">
+                            <i class="ri-add-line faqsIcon"></i>
+                            <h3 class="faqsItemTitle">
+                                What causes brown crispy leaves?
+                            </h3>
+                        </header>
+                        <div class="faqsContent">
+                            <p class="faqsDesc">
+                                Plants are easy way to add color energy and transform your space
+                                but which planet is for you. Choose the right planet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faqsGroup">
+                    <div class="faqsItem">
+                        <header class="faqsHeader">
+                            <i class="ri-add-line faqsIcon"></i>
+                            <h3 class="faqsItemTitle">
+                                How do I choose a plant?
+                            </h3>
+                        </header>
+                        <div class="faqsContent">
+                            <p class="faqsDesc">
+                                Plants are easy way to add color energy and transform your space
+                                but which planet is for you. Choose the right planet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faqsItem">
+                        <header class="faqsHeader">
+                            <i class="ri-add-line faqsIcon"></i>
+                            <h3 class="faqsItemTitle">
+                                How do I change the pots?
+                            </h3>
+                        </header>
+                        <div class="faqsContent">
+                            <p class="faqsDesc">
+                                Plants are easy way to add color energy and transform your space
+                                but which planet is for you. Choose the right planet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faqsItem">
+                        <header class="faqsHeader">
+                            <i class="ri-add-line faqsIcon"></i>
+                            <h3 class="faqsItemTitle">
+                                Why are gnats flying arround my plants?
+                            </h3>
+                        </header>
+                        <div class="faqsContent">
+                            <p class="faqsDesc">
+                                Plants are easy way to add color energy and transform your space
+                                but which planet is for you. Choose the right planet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Contact ========== -->
+        <section class="contact section container" id="contact">
+            <div class="contactContainer grid">
+                <div class="contactBox">
+                    <h2 class="sectionTitle">
+                        Reach out to us today <br> via any of the given <br> information
+                    </h2>
+                    <div class="contactData">
+                        <div class="contactInfo">
+                            <h3 class="contactSubtitle">Call us for instant support</h3>
+                            <span class="contactDesc">
+                                <i class="ri-phone-line contactIcon"></i>
+                                +20 101 049 5597
+                            </span>
+                        </div>
+                        <div class="contactInfo">
+                            <h3 class="contactSubtitle">Write us by mail</h3>
+                            <span class="contactDesc">
+                                <i class="ri-mail-line contactIcon"></i>
+                                ahmedhafezoffic@gmail.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://ahmedhafezoffic.netlify.app/" name="myform" class="contactForm" target="_blank"
+                    autocomplete="off">
+                    <div class="contactInputs">
+                        <div class="contactContent">
+                            <h3 id="emailError" class="error"></h3>
+                            <input type="email" name="email" placeholder=" " class="contactInput">
+                            <label for="email" class="contactLabel">Email</label>
+                        </div>
+                        <div class="contactContent">
+                            <h3 id="subjectError" class="error"></h3>
+                            <input type="text" name="subject" placeholder=" " class="contactInput">
+                            <label for="subject" class="contactLabel">Subject</label>
+                        </div>
+                        <div class="contactContent contactArea">
+                            <h3 id="messageError" class="error"></h3>
+                            <textarea name="message" placeholder=" " class="contactInput"></textarea>
+                            <label class="contactLabel">Message</label>
+                        </div>
+                    </div>
+                    <button class="btn btnFlex" id="formSubmitBtn">
+                        Send Message
+                        <i class="ri-arrow-right-up-line btnIcon"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== Footer ========== -->
+    <footer class="footer section">
+        <div class="footerContainer container grid">
+            <div class="footerContent">
+                <a href="#" class="footerLogo" translate="no">
+                    <i class="ri-leaf-line footerLogoIcon"></i> Plantux
+                </a>
+
+                <h3 class="footerTitle">
+                    Subscribe to our newsletter <br> to stay up-to-date
+                </h3>
+
+                <div class="footerSubscribe">
+                    <input type="email" name="subscribe" id="subscribe" placeholder="Enter Your Email"
+                        class="footerInput">
+                    <h3 id="subscribeError" class="error subscribeError"></h3>
+                    <button class="btn btnFlex footerBtn" id="subscribeBtn">
+                        Subscribe
+                        <i class="ri-arrow-right-up-line btnIcon"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="footerContent">
+                <h3 class="footerTitle">Our Address</h3>
+                <ul class="footerData">
+                    <li class="footerInfo">Dakahlia - Egypt</li>
+                    <li class="footerInfo">Mansoura - 43210</li>
+                    <li class="footerInfo">050 259 5010</li>
+                </ul>
+            </div>
+            <div class="footerContent">
+                <h3 class="footerTitle">Contact Us</h3>
+                <ul class="footerData">
+                    <li class="footerInfo">+20 101 049 5597</li>
+                    <div class="footerSocial">
+                        <a href="https://www.facebook.com/profile.php?id=100005116839262" class="footerSocialLink"
+                            target="_blank">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ahmedhafez247/" class="footerSocialLink" target="_blank">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="https://github.com/AhmedHafez7-Eng" class="footerSocialLink" target="_blank">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://ahmedhafezoffic.netlify.app/" class="footerSocialLink" target="_blank">
+                            <i class="ri-global-fill"></i>
+                        </a>
+                        <a href="https://www.behance.net/ahmedhafez12" class="footerSocialLink" target="_blank">
+                            <i class="ri-behance-fill"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+            <div class="footerContent">
+                <h3 class="footerTitle">
+                    We accept all credit cards
+                </h3>
+                <div class="footerCards">
+                    <img src="img/card1.png" alt="card" class="footerCard">
+                    <img src="img/card2.png" alt="card" class="footerCard">
+                    <img src="img/card3.png" alt="card" class="footerCard">
+                    <img src="img/card4.png" alt="card" class="footerCard">
+                </div>
+            </div>
+        </div>
+        <p class="footerCopy">&#169; Ahmed Hafez. All Rights Reserved</p>
+    </footer>
+
+    <!-- ========== Scroll To Top ========== -->
+    <a href="#home" class="scrollUp" id="scrollUp">
+        <i class="ri-arrow-up-fill scrollUpIcon"></i>
+    </a>
+
+    <!-- ========== Success Message for Form ========== -->
+    <div class="successAlert" id="formSuccess">
+        <span class="closebtn" onclick="this.parentElement.classList.remove('activeMessage');">&times;</span>
+        <strong>Your Message</strong> Sent Successfully
+    </div>
+
+    <!-- ========== Success Message for Subscribe ========== -->
+    <div class="successAlert" id="subscribeSuccess">
+        <span class="closebtn" onclick="this.parentElement.classList.remove('activeMessage');">&times;</span>
+        You've Subscribed Successfully!
+    </div>
+
+    <!-- ========== End Of HTML ========== -->
+
+
+    <!-- ========== Scroll Reveal ========== -->
+    <script src="js/scrollreveal.min.js"></script>
+    <!-- ========== Main JS ========== -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
